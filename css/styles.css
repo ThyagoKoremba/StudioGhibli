@@ -477,6 +477,8 @@ section{
 
 @media (min-width:1024px){
     .imagen-inicio{
+        height: 50%;
+        width: 50%;
         margin: 80px 0px 80px;
     }
     .contenedor-card{
@@ -493,4 +495,15 @@ section{
     .contenido-parque .mapa{
         height: 500px;
     }
+
+    /*Peliculas*/
+    .container-peli{
+        grid-template-columns: repeat(4 , 1fr);
+        grid-template-rows: repeat(3 , 1fr);
+        grid-template-areas: 
+        "peli-1 peli-2 peli-3 peli-4"
+        "peli-5 peli-6 peli-7 peli-8"
+        "peli-9 peli-10 peli-11 peli-12"
+    ;
+        }
 }
