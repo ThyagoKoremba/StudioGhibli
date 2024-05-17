@@ -1,0 +1,36 @@
+section{
+    .contenedor-card{
+        @include flex (column,wrap,0,0);
+        .card-tienda{
+            background-color: rgba(123, 161, 179, .5);
+            border-radius: 50px;
+            text-align: center;
+            overflow: hidden;
+            margin: 35px;
+            height: 425px;
+            width: 300px;
+            box-shadow: 13px 13px 65px 0px rgba(0,0,0,0.75);
+            img{
+                height: 300px;
+                width: 300px;
+                object-fit: cover;
+            }
+            .card-text{
+                @extend %estilo-texto;
+                h3{
+                    font-family: $title-font;
+                    padding-top: 8px;
+                }
+                .carro{
+                    cursor: pointer;
+                    border-radius: 15px;
+                    background-color: rgb(56, 77, 97);
+                    margin: 0px 60px;
+                    &:hover{
+                        background-color: rgb(86, 120, 151);
+                    }
+                }
+            }
+        }
+    }
+}

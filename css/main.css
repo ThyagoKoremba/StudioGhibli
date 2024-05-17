@@ -1,0 +1,428 @@
+.signika {
+  font-family: "Signika", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "GRAD" 0;
+}
+
+.lustria-regular {
+  font-family: "Lustria", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.libre-franklin {
+  font-family: "Libre Franklin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: bold;
+}
+
+section .lugares-parque .contenedor-card .card-parque h3, section .contenido .contenido-inicio h1 {
+  font-family: signika;
+  font-size: 3rem;
+}
+
+section .contenido-autores .text-autores-2 p, section .contenido-autores .text-autores-1 p, section .contenido .contenido-inicio p {
+  font-family: lustria;
+  font-size: 1.6rem;
+}
+
+.bg-almacen {
+  background-color: #ff8633;
+}
+
+.bg-colina {
+  background-color: #00b8ff;
+}
+
+.bg-bosque {
+  background-color: #71d331;
+}
+
+.bg-villa {
+  background-color: #9d67d0;
+}
+
+.bg-valle {
+  background-color: #e076d7;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+section {
+  background-color: #223344;
+  color: #f9f3e5;
+}
+
+.resaltar {
+  color: #fa8104;
+}
+
+header .navbar {
+  background-color: #2671bc;
+  font-family: signika;
+  font-size: 2.3rem;
+}
+header .navbar div .img-logo img {
+  width: 200px;
+}
+header .navbar div .navbar-toggler {
+  border: 1px solid #f9f3e5 !important;
+}
+header .navbar div .contenido-nav {
+  align-items: center;
+}
+header .navbar div .contenido-nav .nav-item:hover {
+  text-decoration: underline #f9f3e5 1px;
+}
+header .navbar div .contenido-nav .nav-item .nav {
+  color: #f9f3e5 !important;
+  margin: 6px;
+}
+
+section .contenido {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+section .contenido .contenido-inicio {
+  margin: 50px 30px 0px;
+}
+section .contenido .imagen-inicio {
+  border-radius: 50px;
+  margin: 40px 30px;
+}
+
+section .contenedor-card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: 0;
+  align-items: 0;
+}
+section .contenedor-card .card-tienda {
+  background-color: rgba(123, 161, 179, 0.5);
+  border-radius: 50px;
+  text-align: center;
+  overflow: hidden;
+  margin: 35px;
+  height: 425px;
+  width: 300px;
+  box-shadow: 13px 13px 65px 0px rgba(0, 0, 0, 0.75);
+}
+section .contenedor-card .card-tienda img {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
+section .contenedor-card .card-tienda .card-text {
+  font-family: lustria;
+  font-size: 1.6rem;
+}
+section .contenedor-card .card-tienda .card-text h3 {
+  font-family: signika;
+  padding-top: 8px;
+}
+section .contenedor-card .card-tienda .card-text .carro {
+  cursor: pointer;
+  border-radius: 15px;
+  background-color: rgb(56, 77, 97);
+  margin: 0px 60px;
+}
+section .contenedor-card .card-tienda .card-text .carro:hover {
+  background-color: rgb(86, 120, 151);
+}
+
+section .container-peli {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  grid-template-areas: "peli-1" "peli-2" "peli-3" "peli-4" "peli-5" "peli-6" "peli-7" "peli-8" "peli-9" "peli-10" "peli-11" "peli-12";
+  gap: 28px;
+  padding: 35px 25px;
+}
+section .container-peli .card-peli {
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.7);
+  border-radius: 15px;
+  background-color: rgba(123, 161, 179, 0.5);
+  text-align: center;
+  padding: 30px 20px;
+  align-items: center;
+}
+section .container-peli .card-peli img {
+  width: 250px;
+  height: 370px;
+  border-radius: 5px;
+}
+section .container-peli .card-peli h3 {
+  padding: 10px 0;
+  font-family: signika;
+  font-size: 3rem;
+}
+section .container-peli .card-peli p {
+  font-family: lustria;
+  font-size: 1.6rem;
+  line-height: 1.8;
+}
+
+section .contenido-parque h1 {
+  font-size: 34px;
+  padding: 10px 25px;
+  font-family: signika;
+}
+section .contenido-parque h2 {
+  font-size: 30px;
+  margin: 10px 25px;
+  font-family: libre-franklin;
+}
+section .contenido-parque h4 {
+  font-size: 25px;
+  margin: 15px 30px;
+}
+section .contenido-parque p {
+  padding: 10px 20px 0px 45px;
+  margin-top: 20px;
+  font-size: 16px;
+  font-family: lustria;
+}
+section .contenido-parque a {
+  font-family: signika;
+  color: #f9f3e5;
+}
+section .contenido-parque a:hover {
+  color: #ff8633;
+  font-family: signika;
+}
+section .contenido-parque a:visited {
+  font-family: signika;
+  color: #f9f3e5;
+}
+section .contenido-parque .parque-texto {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: 0;
+  justify-content: center;
+  align-items: 0;
+}
+section .contenido-parque .parque-texto .mapa {
+  width: 85%;
+  margin: 15px;
+  border-radius: 50px;
+  margin-bottom: 30px;
+}
+section .contenido-parque .muestra-titulo {
+  padding-top: 25px;
+  height: 280px;
+  width: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 0px 100px 100px 0px;
+  box-shadow: 15px 15px 50px black;
+}
+section .contenido-parque .muestra-titulo img {
+  height: 164px;
+  width: 164px;
+  border-radius: 5px;
+  padding-left: 15px;
+}
+section .contenido-parque .muestra-titulo .titulo-parque {
+  height: 100px;
+  display: flex;
+}
+section .lugares-parque {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: 0;
+}
+section .lugares-parque .contenedor-card .card-parque {
+  margin: 25px 30px;
+  height: 180px;
+  width: 190px;
+  text-align: center;
+}
+section .lugares-parque .contenedor-card .card-parque .card-parque-text {
+  width: 200px;
+}
+section .lugares-parque .contenedor-card .card-parque a {
+  font-family: signika;
+  color: #f9f3e5;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 700;
+}
+section .lugares-parque .contenedor-card .card-parque a:hover {
+  font-family: signika;
+  color: #f9f3e5;
+  font-size: 21px;
+  text-decoration: none;
+  font-weight: 700;
+}
+section .lugares-parque .contenedor-card .card-parque img {
+  height: 150px;
+  width: 150px;
+}
+
+section .contenido-autores {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr 0.5fr;
+  grid-template-areas: "img-autores-1 img-autores-1" "text-autores-1 text-autores-1" "img-autores-2 img-autores-2" "text-autores-2 text-autores-2";
+  padding: 30px 16px;
+}
+section .contenido-autores .img-autores-1 {
+  grid-area: img-autores-1;
+  display: flex;
+  justify-content: center;
+}
+section .contenido-autores .text-autores-1 {
+  grid-area: text-autores-1;
+  padding-top: 25px;
+}
+section .contenido-autores .text-autores-1 p {
+  padding-top: 15px;
+}
+section .contenido-autores .img-autores-2 {
+  grid-area: img-autores-2;
+  display: flex;
+  justify-content: center;
+}
+section .contenido-autores .text-autores-2 {
+  grid-area: text-autores-2;
+  padding-top: 25px;
+}
+section .contenido-autores .text-autores-2 p {
+  padding-top: 15px;
+}
+section .contenido-autores img {
+  height: 400px;
+  width: 250px;
+  border-radius: 15px;
+}
+
+footer .footer-contenedor {
+  background-color: #2671bc;
+  height: 15%;
+  color: #f9f3e5;
+  font-size: 1.6rem;
+  text-align: center;
+  font-family: signika;
+  padding-top: 10px;
+}
+footer .footer-contenedor .redes-sociales ul {
+  display: flex;
+  justify-content: center;
+}
+footer .footer-contenedor .redes-sociales ul li {
+  margin: 6px 10px;
+  list-style: none;
+}
+footer .footer-contenedor .rights p {
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  section .contenido .imagen-inicio {
+    width: 600px;
+  }
+  section .contenedor-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  section .container-peli {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: "peli-1 peli-2 peli-3" "peli-4 peli-5 peli-6" "peli-7 peli-8 peli-9" "peli-10 peli-11 peli-12";
+  }
+  section .contenido-parque .lugares-parque .contenedor-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  section .contenido-parque .muestra-titulo {
+    margin-top: 25px;
+    height: 230px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 100px 100px 0px;
+    box-shadow: 15px 15px 50px black;
+  }
+  section .contenido-parque .mapa {
+    width: 80%;
+    height: 700px;
+  }
+  section .contenido-autores {
+    grid-template-areas: "img-autores-1 text-autores-1" "img-autores-1 text-autores-1" "img-autores-2 text-autores-2" "img-autores-2 text-autores-2";
+    row-gap: 30px;
+  }
+  section .contenido-autores img {
+    height: 500px;
+    width: 350px;
+    border-radius: 15px;
+  }
+  section .contenido-autores .img-autores-1 {
+    grid-area: img-autores-1;
+    display: flex;
+    justify-content: center;
+  }
+  section .contenido-autores .text-autores-1 {
+    padding: 30px 50px 0px 15px;
+  }
+  section .contenido-autores .img-autores-2 {
+    grid-area: img-autores-2;
+    display: flex;
+    justify-content: center;
+  }
+  section .contenido-autores .text-autores-2 {
+    padding: 30px 50px 0px 15px;
+  }
+}
+@media (min-width: 1024px) {
+  section .contenido .imagen-inicio {
+    height: 50%;
+    width: 50%;
+    margin: 80px 0px 80px;
+  }
+  section .container-peli {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "peli-1 peli-2 peli-3 peli-4" "peli-5 peli-6 peli-7 peli-8" "peli-9 peli-10 peli-11 peli-12";
+  }
+  section .contenido-parque .muestra-titulo {
+    justify-content: space-around;
+    width: 60%;
+  }
+  section .contenido-parque .mapa {
+    height: 700px;
+  }
+  section .contenido-autores .text-autores-1 {
+    padding: 30px 150px 0px 15px;
+  }
+  section .contenido-autores .text-autores-1 h1 {
+    padding-left: -30px;
+  }
+  section .contenido-autores .text-autores-2 {
+    padding: 30px 150px 0px 15px;
+  }
+  section .contenido-autores .text-autores-2 h1 {
+    padding-left: -30px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

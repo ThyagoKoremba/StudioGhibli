@@ -1,0 +1,14 @@
+//map
+$colores-parque: (
+almacen:#ff8633,
+colina:#00b8ff,
+bosque:#71d331,
+villa:#9d67d0,
+valle:#e076d7,
+);
+
+@each $name, $color in $colores-parque{
+    .bg-#{$name}{
+        background-color: $color ;
+    }
+}

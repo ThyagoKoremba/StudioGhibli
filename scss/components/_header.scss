@@ -1,0 +1,31 @@
+header{
+    .navbar{
+        background-color: #2671bc;
+        font-family: $title-font;
+        font-size: 2.3rem;
+        div{
+            .img-logo{
+                img{
+                        width: 200px;
+                }
+            }
+            .navbar-toggler{
+                border:  1px solid $blanco !important;
+            }
+        }
+        div{
+            .contenido-nav{
+                align-items: center;
+                .nav-item{
+                    &:hover{
+                        text-decoration: underline $blanco 1px;
+                    }
+                    .nav{
+                        color: $blanco !important;
+                        margin: 6px ;
+                            }
+                    }
+                }
+            }
+    }
+}

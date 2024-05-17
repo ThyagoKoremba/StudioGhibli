@@ -1,0 +1,28 @@
+footer{
+    .footer-contenedor{
+        background-color: $color-primario;
+        height:15%;
+        color: $blanco;
+        font-size: $text-font-size;
+        text-align: center;
+        font-family: $title-font;
+        padding-top: 10px;
+        
+
+        .redes-sociales{
+            ul{
+                display: flex;
+                justify-content: center;
+                li{
+                    margin: 6px 10px;
+                    list-style: none;
+                }
+            }
+        }
+        .rights{
+            p{
+                margin-bottom: 0;
+            }
+        }
+    }
+}

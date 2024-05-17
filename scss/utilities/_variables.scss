@@ -1,0 +1,40 @@
+//variables
+.signika{
+    font-family: "Signika", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+    "GRAD" 0;
+}
+
+.lustria-regular {
+    font-family: "Lustria", serif;
+    font-weight: 400;
+    font-style: normal;
+}  
+
+.libre-franklin {
+    font-family: "Libre Franklin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: bold;
+}
+//texto
+$title-font:signika;
+$text-font:lustria;
+$subtitle-font:libre-franklin;
+$title-font-size:3rem;
+$text-font-size:1.6rem;
+
+//colores-generales
+$color-primario:#2671bc;
+$background:#223344;
+$blanco:#f9f3e5;
+
+//colores-parque
+$color-almacen:#ff8633;
+$color-colina:#00b8ff;
+$color-bosque:#71d331;
+$color-villa:#9d67d0;
+$color-valle:#e076d7;

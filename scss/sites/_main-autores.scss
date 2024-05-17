@@ -1,0 +1,45 @@
+section{
+    .contenido-autores{
+        display: grid;
+        grid-template-columns: repeat(2 ,1fr);
+        grid-template-rows: 1fr .5fr;
+        grid-template-areas: 
+        "img-autores-1 img-autores-1"
+        "text-autores-1 text-autores-1"
+        "img-autores-2 img-autores-2"
+        "text-autores-2 text-autores-2"
+        ;
+        padding: 30px 16px;
+        .img-autores-1{
+            grid-area: img-autores-1;
+            display: flex;
+            justify-content: center;
+        }
+        .text-autores-1{
+            grid-area:text-autores-1;
+            padding-top: 25px;
+            p{
+                @extend %estilo-texto;
+                padding-top: 15px;
+            }
+        }
+        .img-autores-2{
+            grid-area: img-autores-2;
+            display: flex;
+            justify-content: center;
+        }
+        .text-autores-2{
+            grid-area:text-autores-2;
+            padding-top: 25px;
+            p{
+                @extend %estilo-texto; 
+                padding-top: 15px;
+            }
+        }
+        img{
+            height: 400px;
+            width: 250px;
+            border-radius: 15px;
+        }
+    }
+}

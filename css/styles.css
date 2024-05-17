@@ -1,4 +1,4 @@
-.signika{
+/* .signika{
     font-family: "Signika", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
@@ -29,94 +29,96 @@
     --subtitle-font: libre-franklin;
     --title-font-size: 3rem;
     --text-font-size:1.6rem;
-}
+} */
+/*
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 /*
+/*
 naranja fuerte:bb3c06
 naranja:fa8104
 amarillo:ffb800
 */
-html{
+/* html{
     font-size: 62.5%;
-}
+} */
 
-.navbar{
+/* .navbar{
     background-color: #2671bc;
     font-family: var(--title-font);
     font-size: 2.3rem;
-}
+} */
 
-.img-logo img{
+/* .img-logo img{
     width: 200px;
-}
+} */
 
-.resaltar{
+/* .resaltar{
     color: #fa8104;
-}
+} */
 
-section{
+/* section{
     background-color: #223344;
     color: var(--color-blanco);
-}
+} */
 
-.contenido-nav{
+/* .contenido-nav{
     align-items: center;
-}
+} */
 
-.nav-item:hover{
+/* .nav-item:hover{
     text-decoration: underline var(--color-blanco) 1px;
-}
+} */
 
-.nav{
+/* .nav{
     color: var(--color-blanco) !important;
     margin: 6px ;
-}
+} */
 
 
-.imagen-inicio{
+/* .imagen-inicio{
     border-radius: 50px;
     margin: 40px 30px;
-}
+} */
 
 
 
-.contenido{
+/* .contenido{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
-}
+} */
 
-.contenido-inicio{
+/* .contenido-inicio{
     font-size: 1.6rem;
     margin: 50px 30px 0px;
-}
+} */
 
-.texto{
+/* .texto{
     font-family: var(--text-font);
     font-size: var(--text-font-size);
-}
+} */
 
-.titulo{
+/* .titulo{
     font-family: var(--title-font);
     font-size: var(--title-font-size);
-}
+} */
 
-.navbar-toggler{
+/* .navbar-toggler{
     border:  1px solid var(--color-blanco) !important;
-}
+} */
 
-.contenedor-card{
+/* .contenedor-card{
     flex-direction: column;
     flex-wrap: wrap;
-}
+} */
 /*Card tienda*/
-.card-tienda{
+/* .card-tienda{
     background-color: rgba(123, 161, 179, .5);
     border-radius: 50px;
     text-align: center;
@@ -130,9 +132,9 @@ section{
     height: 300px;
     width: 300px;
     object-fit: cover;
-}
+} */
 
-.card-text{
+/* .card-text{
     font-family: var(--text-font);
     font-size: var(--text-font-size);
 }
@@ -140,9 +142,9 @@ section{
 .card-text h3{
     font-family: var(--title-font);
     padding-top: 8px;
-}
+} */
 
-.carro{
+/* .carro{
     cursor: pointer;
 }
 
@@ -150,17 +152,17 @@ section{
     background-color: rgb(56, 77, 97);
     border-radius: 15px;
     margin: 0px 60px;
-}
+} */
 /*Fin card tienda*/
 /*Card peliculas*/
-.card-peli img{
+/* .card-peli img{
     width: 250px;
     height: 370px;
     border-radius: 5px;
-}
+} */
 
 
-.container-peli{
+/* .container-peli{
     display: grid;
     grid-template-columns: repeat(1 , 1fr);
     grid-template-rows: repeat(12 , 1fr);
@@ -179,98 +181,98 @@ section{
     "peli-12";
     gap:28px;
     padding: 35px 25px;
-}
+} */
 
-.container-peli .card-peli{
+/* .container-peli .card-peli{
     box-shadow: 0 15px 20px rgba(0,0,0,.7);
     border-radius: 15px;
     background-color: rgba(123, 161, 179, .5);
     text-align: center;
     padding: 30px 20px;
     align-items: center;
-}
+} */
 
-.container-peli .card-peli h3{
+/* .container-peli .card-peli h3{
     font-family: var(--title-font);
-    font-size: var(--title-font-size);
-    padding: 10px 0;
-}
+    font-size: var(--title-font-size); */
+/*     padding: 10px 0; */
 
-.container-peli .card-peli p{
+
+/* .container-peli .card-peli p{
     font-family: var(--text-font);
-    font-size: var(--text-font-size);
-    line-height: 1.8;
-}
+    font-size: var(--text-font-size); */
+/*     line-height: 1.8; */
+
 /*Fin cards peliculas*/
 
 /*Card parque*/
-.lugares-parque{
+/* .lugares-parque{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 }
-
-.card-parque{
+ */
+/* .card-parque{
     margin: 25px 30px;
     height: 180px;
     width: 190px;
     text-align: center;
-}
-.card-parque img{
+} */
+/* .card-parque img{
     height: 150px;
     width: 150px;
-}
+} */
 
-.card-parque h3{
+/* .card-parque h3{
     font-family: var(--title-font);
     font-size: var(--title-font-size);
-}
+} */
 
-.card-parque-text{
+/* .card-parque-text{
     width: 200px;
-}
-
+} */
+/* 
 .parque-texto{
     display: flex;
     justify-content: center;
-}
+} */
 
-.contenido-parque p{
-    padding: 10px 20px 0px 45px;
-    font-family: var(--text-font);
-    margin-top: 20px;
-    font-size: 16px;
-}
-.contenido-parque .mapa{
+/* .contenido-parque p{ */
+/*     padding: 10px 20px 0px 45px; */
+/*     font-family: var(--text-font); */
+/*     margin-top: 20px;
+    font-size: 16px;*/
+
+/* .contenido-parque .mapa{
     width: 85%;
     height: 350px;
     margin: 15px;
     border-radius: 50px;
     margin-bottom: 30px;
-}
+} */
 
-.contenido-parque h2{
-    font-size: 30px;
-    font-family: var(--subtitle-font);
-    margin: 10px 25px;
-}
+/* .contenido-parque h2{ */
+/*     font-size: 30px; */
+/*     font-family: var(--subtitle-font); */
+/*     margin: 10px 25px; */
 
-.contenido-parque h1{
-    font-size: 34px;
-    font-family: var(--title-font);
-    padding: 10px 25px;
-}
 
-.contenido-parque h4{
+/* .contenido-parque h1{ */
+/*     font-size: 34px; */
+/*     font-family: var(--title-font); */
+/*     padding: 10px 25px; */
+
+
+/* .contenido-parque h4{
     font-size: 25px;
     margin: 15px 30px;
-}
-.titulo-parque{
+} */
+/* .titulo-parque{
     height: 100px;
     display: flex;
-}
+} */
 
-.muestra-titulo{
+/* .muestra-titulo{
     padding-top: 25px;
     height: 280px;
     width: 350px;
@@ -278,13 +280,13 @@ section{
     flex-wrap: wrap;
     border-radius: 0px 100px 100px 0px;
     box-shadow: 15px 15px 50px black;
-}
-.muestra-titulo img{
+} */
+/* .muestra-titulo img{
     height: 164px;
     width: 164px;
     border-radius: 5px;
     margin-left: 15px;
-}
+} */
 /*Titulo Almacen*/
 .contenedor-titulo-almacen{
 
@@ -292,27 +294,27 @@ section{
 }
 
 /*Titulo Colina*/
-.contenedor-titulo-colina{
+/* .contenedor-titulo-colina{
     background-color: #00B8FF;
-}
+} */
 
 /*Titulo bosque*/
-.contenedor-titulo-bosque{
+/* .contenedor-titulo-bosque{
     background-color: #71D331;
 }
-
+ */
 /*Titulo Villa*/
-.contenedor-titulo-villa{
+/* .contenedor-titulo-villa{
     background-color: #9d67d0;
-}
+} */
 
 /*Titulo Valle*/
-.contenedor-titulo-valle{
+/* .contenedor-titulo-valle{
     background-color: #e076d7;
-}
+} */
 
 
-.contenido-parque a{
+/* .contenido-parque a{
     font-family: var(--title-font);
     color: var(--color-blanco);
 }
@@ -324,9 +326,9 @@ section{
 .contenido-parque a:visited{
     font-family: var(--title-font);
     color:var(--color-blanco);
-}
+} */
 
-.card-parque-text a{
+/* .card-parque-text a{
     font-family: var(--title-font);
     color: var(--color-blanco);
     font-size: 20px;
@@ -340,10 +342,10 @@ section{
     text-decoration: none;
     font-weight: 700;
 }
-
+ */
 
 /*Autores*/
-.contenido-autores{
+/* .contenido-autores{
     display: grid;
     grid-template-columns: repeat(2 ,1fr);
     grid-template-rows: 1fr .5fr;
@@ -374,27 +376,27 @@ section{
     grid-area:text-autores-2;
     font-family: var(--subtitle-font);
     padding-top: 25px;
-}
+} */
 
-.text-autores-1 p{
+/* .text-autores-1 p{
     font-family: var(--text-font);
-    font-size: var(--text-font-size);
-    padding-top: 15px;
-}
+    font-size: var(--text-font-size); */
+/*     padding-top: 15px; */
+/* }
 .text-autores-2 p{
     font-family: var(--text-font);
-    font-size: var(--text-font-size);
-    padding-top: 15px;
-}
+    font-size: var(--text-font-size); */
+/*     padding-top: 15px; */
 
-.contenido-autores img{
+
+/* .contenido-autores img{
     height: 400px;
     width: 250px;
     border-radius: 15px;
-}
+} */
 
 /*footer*/
-.footer-contenedor{
+/* .footer-contenedor{
     background-color: var(--color-primario);
     height:100px;
     color: var(--color-blanco);
@@ -404,15 +406,15 @@ section{
     padding-top: 10px;
 }
 
-.footer-contenedor ul il{
+.footer-contenedor ul li{
     margin: 6px 10px;
-}
+} */
 
 /*MEDIA QUERYS*/
 @media (min-width:768px) {
-    .imagen-inicio{
+/*     .imagen-inicio{
         width: 600px;
-    }
+    } */
     
     .contenedor-card{
         display: flex;
@@ -421,7 +423,7 @@ section{
     }
 
     /*parque*/
-    .muestra-titulo{
+/*     .muestra-titulo{
         margin-top: 25px;
         height: 230px;
         width: 80%;
@@ -430,15 +432,15 @@ section{
         align-items: center;
         border-radius: 0px 100px 100px 0px;
         box-shadow: 15px 15px 50px black;
-    }
+    } */
 
-    .contenido-parque .mapa{
+/*     .contenido-parque .mapa{
         width: 80%;
         height: 400px;
-    }
+    } */
 
     /*peliculas*/
-    .container-peli{
+/*     .container-peli{
     grid-template-columns: repeat(3 , 1fr);
     grid-template-rows: repeat(4 , 1fr);
     grid-template-areas: 
@@ -447,9 +449,9 @@ section{
     "peli-7 peli-8 peli-9"
     "peli-10 peli-11 peli-12"
 ;
-    }
+    } */
     /*autores*/
-    .contenido-autores{
+/*     .contenido-autores{
         display: grid;
         grid-template-columns: repeat(2 ,1fr);
         grid-template-rows: 1fr .5fr;
@@ -473,16 +475,16 @@ section{
     .text-autores-1{
         padding-top: 30px 50px 0px 15px;;
     }
-}
+} */
 
 @media (min-width:1024px){
-    .imagen-inicio{
+/*     .imagen-inicio{
         height: 50%;
         width: 50%;
         margin: 80px 0px 80px;
-    }
+    } */
         /*parque*/
-    .contenedor-card{
+/*     .contenedor-card{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -494,19 +496,18 @@ section{
 
     .contenido-parque .mapa{
         height: 500px;
-    }
+    } */
 
     /*Peliculas*/
-    .container-peli{
+/*     .container-peli{
         grid-template-columns: repeat(4 , 1fr);
         grid-template-rows: repeat(3 , 1fr);
         grid-template-areas: 
         "peli-1 peli-2 peli-3 peli-4"
         "peli-5 peli-6 peli-7 peli-8"
-        "peli-9 peli-10 peli-11 peli-12"
-    ;
-        }
-        .text-autores-2{
+        "peli-9 peli-10 peli-11 peli-12";
+        } */
+/*         .text-autores-2{
             padding: 30px 150px 0px 15px;
         }
         .text-autores-1{
@@ -518,4 +519,4 @@ section{
         .text-autores-1 h1{
             padding-left: -30px;
         }
-}
+}} */}}

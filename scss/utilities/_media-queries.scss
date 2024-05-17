@@ -1,0 +1,143 @@
+@media (min-width:768px) {
+    //inicio
+    section{
+        .contenido{
+            .imagen-inicio{
+                width: 600px;
+            }
+        }
+    }
+        //tienda
+        section{
+            .contenedor-card{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+        }
+    //peliculas
+    section{    
+        .container-peli{
+            grid-template-columns: repeat(3 , 1fr);
+            grid-template-rows: repeat(4 , 1fr);
+            grid-template-areas: 
+            "peli-1 peli-2 peli-3"
+            "peli-4 peli-5 peli-6"
+            "peli-7 peli-8 peli-9"
+            "peli-10 peli-11 peli-12";
+        }
+    }
+    //parque
+    section{
+        .contenido-parque{
+            .lugares-parque{
+                .contenedor-card{
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                }
+            }
+            .muestra-titulo{
+                margin-top: 25px;
+                height: 230px;
+                width: 80%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 0px 100px 100px 0px;
+                box-shadow: 15px 15px 50px black;
+            }
+            .mapa{
+                width: 80%;
+                height: 700px;
+            }
+        }
+    }
+    //autores
+    section{
+        .contenido-autores{
+            grid-template-areas: 
+            "img-autores-1 text-autores-1"
+            "img-autores-1 text-autores-1"
+            "img-autores-2 text-autores-2"
+            "img-autores-2 text-autores-2"
+            ;
+            row-gap: 30px;
+            img{
+                height: 500px;
+                width: 350px;
+                border-radius: 15px;
+            }
+            .img-autores-1{
+                grid-area: img-autores-1;
+                display: flex;
+                justify-content: center;
+            }
+            .text-autores-1{
+                padding: 30px 50px 0px 15px;
+            }
+            .img-autores-2{
+                grid-area: img-autores-2;
+                display: flex;
+                justify-content: center;
+            }
+            .text-autores-2{
+                padding: 30px 50px 0px 15px;
+            }
+        }
+    }
+}
+
+
+@media (min-width:1024px){
+    //inicio
+    section{
+        .contenido{
+            .imagen-inicio{
+                height: 50%;
+                width: 50%;
+                margin: 80px 0px 80px;
+            }
+        }
+    }
+    //peliculas
+    section{    
+    .container-peli{
+        grid-template-columns: repeat(4 , 1fr);
+        grid-template-rows: repeat(3 , 1fr);
+        grid-template-areas: 
+        "peli-1 peli-2 peli-3 peli-4"
+        "peli-5 peli-6 peli-7 peli-8"
+        "peli-9 peli-10 peli-11 peli-12";
+        }
+    }
+        //parque
+        section{
+            .contenido-parque{
+                .muestra-titulo{
+                    justify-content: space-around; 
+                    width: 60%;
+                }
+                .mapa{
+                    height: 700px;
+                }
+            }
+        }
+    //autores
+    section{
+        .contenido-autores{
+            .text-autores-1{
+                padding: 30px 150px 0px 15px;
+                h1{
+                    padding-left: -30px;
+                }
+            }
+            .text-autores-2{
+                padding: 30px 150px 0px 15px;
+                h1{
+                    padding-left: -30px;
+                }
+            }
+        }
+    }
+}
