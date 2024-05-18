@@ -12,8 +12,7 @@ section{
         padding: 30px 16px;
         .img-autores-1{
             grid-area: img-autores-1;
-            display: flex;
-            justify-content: center;
+            @include flex (0,0,center,0);
         }
         .text-autores-1{
             grid-area:text-autores-1;
@@ -25,8 +24,7 @@ section{
         }
         .img-autores-2{
             grid-area: img-autores-2;
-            display: flex;
-            justify-content: center;
+            @include flex (0,0,center,0);
         }
         .text-autores-2{
             grid-area:text-autores-2;

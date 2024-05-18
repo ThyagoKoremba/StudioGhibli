@@ -19,12 +19,12 @@
   font-style: bold;
 }
 
-section .lugares-parque .contenedor-card .card-parque h3, section .contenido .contenido-inicio h1 {
+section .lugares-parque .contenedor-card .card-parque h3, section .container-peli .card-peli h3, section .contenido .contenido-inicio h1 {
   font-family: signika;
   font-size: 3rem;
 }
 
-section .contenido-autores .text-autores-2 p, section .contenido-autores .text-autores-1 p, section .contenido .contenido-inicio p {
+section .contenido-autores .text-autores-2 p, section .contenido-autores .text-autores-1 p, section .container-peli .card-peli p, section .contenedor-card .card-tienda .card-text, section .contenido .contenido-inicio p {
   font-family: lustria;
   font-size: 1.6rem;
 }
@@ -117,7 +117,7 @@ section .contenedor-card .card-tienda {
   border-radius: 50px;
   text-align: center;
   overflow: hidden;
-  margin: 35px;
+  margin: 15px 0px;
   height: 425px;
   width: 300px;
   box-shadow: 13px 13px 65px 0px rgba(0, 0, 0, 0.75);
@@ -126,10 +126,6 @@ section .contenedor-card .card-tienda img {
   height: 300px;
   width: 300px;
   object-fit: cover;
-}
-section .contenedor-card .card-tienda .card-text {
-  font-family: lustria;
-  font-size: 1.6rem;
 }
 section .contenedor-card .card-tienda .card-text h3 {
   font-family: signika;
@@ -151,7 +147,7 @@ section .container-peli {
   grid-template-rows: repeat(12, 1fr);
   grid-template-areas: "peli-1" "peli-2" "peli-3" "peli-4" "peli-5" "peli-6" "peli-7" "peli-8" "peli-9" "peli-10" "peli-11" "peli-12";
   gap: 28px;
-  padding: 35px 25px;
+  padding: 35px 0px;
 }
 section .container-peli .card-peli {
   box-shadow: 0 15px 20px rgba(0, 0, 0, 0.7);
@@ -168,12 +164,8 @@ section .container-peli .card-peli img {
 }
 section .container-peli .card-peli h3 {
   padding: 10px 0;
-  font-family: signika;
-  font-size: 3rem;
 }
 section .container-peli .card-peli p {
-  font-family: lustria;
-  font-size: 1.6rem;
   line-height: 1.8;
 }
 
@@ -227,7 +219,10 @@ section .contenido-parque .muestra-titulo {
   height: 280px;
   width: 350px;
   display: flex;
+  flex-direction: 0;
   flex-wrap: wrap;
+  justify-content: 0;
+  align-items: 0;
   border-radius: 0px 100px 100px 0px;
   box-shadow: 15px 15px 50px black;
 }
@@ -286,7 +281,10 @@ section .contenido-autores {
 section .contenido-autores .img-autores-1 {
   grid-area: img-autores-1;
   display: flex;
+  flex-direction: 0;
+  flex-wrap: 0;
   justify-content: center;
+  align-items: 0;
 }
 section .contenido-autores .text-autores-1 {
   grid-area: text-autores-1;
@@ -298,7 +296,10 @@ section .contenido-autores .text-autores-1 p {
 section .contenido-autores .img-autores-2 {
   grid-area: img-autores-2;
   display: flex;
+  flex-direction: 0;
+  flex-wrap: 0;
   justify-content: center;
+  align-items: 0;
 }
 section .contenido-autores .text-autores-2 {
   grid-area: text-autores-2;
@@ -342,6 +343,9 @@ footer .footer-contenedor .rights p {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+  }
+  section .contenedor-card .card-tienda {
+    margin: 35px;
   }
   section .container-peli {
     grid-template-columns: repeat(3, 1fr);
