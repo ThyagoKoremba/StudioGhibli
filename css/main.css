@@ -19,7 +19,7 @@
   font-style: bold;
 }
 
-section .lugares-parque .contenedor-card .card-parque h3, section .container-peli .card-peli h3, section .contenido .contenido-inicio h1 {
+.lugares-parque .contenedor-card .card-parque h3, section .container-peli .card-peli h3, section .contenido .contenido-inicio h1 {
   font-family: signika;
   font-size: 3rem;
 }
@@ -84,6 +84,7 @@ header .navbar div .contenido-nav {
 }
 header .navbar div .contenido-nav .nav-item:hover {
   text-decoration: underline #f9f3e5 1px;
+  transition: 0.3s;
 }
 header .navbar div .contenido-nav .nav-item .nav {
   color: #f9f3e5 !important;
@@ -139,6 +140,7 @@ section .contenedor-card .card-tienda .card-text .carro {
 }
 section .contenedor-card .card-tienda .card-text .carro:hover {
   background-color: rgb(86, 120, 151);
+  transition: all 0.3s ease-in-out;
 }
 
 section .container-peli {
@@ -201,23 +203,71 @@ section .contenido-parque a:visited {
   font-family: signika;
   color: #f9f3e5;
 }
-section .contenido-parque .parque-texto {
+section .contenido-parque .formulario {
+  display: flex;
+  flex-direction: 0;
+  flex-wrap: 0;
+  justify-content: center;
+  align-items: center;
+}
+section .contenido-parque .formulario .contenido-formulario {
+  text-align: center;
+  height: 250px;
+  width: 400px;
+  background-color: #ff8633;
+  margin: 36px 0px;
+  border-radius: 50px;
+  box-shadow: 20px 20px 29px -4px rgba(0, 0, 0, 0.75);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+section .contenido-parque .formulario .contenido-formulario .correo {
+  height: 40px;
+  width: 80%;
+  text-align: center;
+  border-radius: 30px;
+  border: none;
+  font-size: 16px;
+}
+section .contenido-parque .formulario .contenido-formulario .boton {
+  margin-top: 10px;
+  background-color: #223344;
+  display: block;
+  height: 36px;
+  width: 100px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: 0;
+  flex-wrap: 0;
+  justify-content: center;
+  align-items: center;
+  margin: 8px;
+}
+section .contenido-parque .formulario .contenido-formulario .boton:hover {
+  transform: scale(1.03);
+  transition: all 0.4s ease;
+  background-color: #2671bc;
+}
+section .parque-texto {
   display: flex;
   flex-direction: row;
   flex-wrap: 0;
   justify-content: center;
   align-items: 0;
 }
-section .contenido-parque .parque-texto .mapa {
+section .parque-texto .mapa {
   width: 85%;
   margin: 15px;
   border-radius: 50px;
   margin-bottom: 30px;
 }
-section .contenido-parque .muestra-titulo {
+section .muestra-titulo {
   padding-top: 25px;
   height: 280px;
-  width: 350px;
+  width: 90%;
   display: flex;
   flex-direction: 0;
   flex-wrap: wrap;
@@ -226,47 +276,48 @@ section .contenido-parque .muestra-titulo {
   border-radius: 0px 100px 100px 0px;
   box-shadow: 15px 15px 50px black;
 }
-section .contenido-parque .muestra-titulo img {
+section .muestra-titulo img {
   height: 164px;
   width: 164px;
   border-radius: 5px;
   padding-left: 15px;
 }
-section .contenido-parque .muestra-titulo .titulo-parque {
+section .muestra-titulo .titulo-parque {
   height: 100px;
   display: flex;
 }
-section .lugares-parque {
+
+.lugares-parque {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: 0;
 }
-section .lugares-parque .contenedor-card .card-parque {
+.lugares-parque .contenedor-card .card-parque {
   margin: 25px 30px;
   height: 180px;
   width: 190px;
   text-align: center;
 }
-section .lugares-parque .contenedor-card .card-parque .card-parque-text {
+.lugares-parque .contenedor-card .card-parque .card-parque-text {
   width: 200px;
 }
-section .lugares-parque .contenedor-card .card-parque a {
+.lugares-parque .contenedor-card .card-parque a {
   font-family: signika;
   color: #f9f3e5;
   font-size: 20px;
   text-decoration: none;
   font-weight: 700;
 }
-section .lugares-parque .contenedor-card .card-parque a:hover {
+.lugares-parque .contenedor-card .card-parque a:hover {
   font-family: signika;
   color: #f9f3e5;
   font-size: 21px;
   text-decoration: none;
   font-weight: 700;
 }
-section .lugares-parque .contenedor-card .card-parque img {
+.lugares-parque .contenedor-card .card-parque img {
   height: 150px;
   width: 150px;
 }

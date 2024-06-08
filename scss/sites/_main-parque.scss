@@ -5,93 +5,149 @@ section {
             padding: 10px 25px;
             font-family: $title-font;
         }
+
         h2 {
             font-size: 30px;
             margin: 10px 25px;
             font-family: $subtitle-font;
         }
+
         h4 {
             font-size: 25px;
             margin: 15px 30px;
         }
+
         p {
             padding: 10px 20px 0px 45px;
             margin-top: 20px;
             font-size: 16px;
             font-family: $text-font;
         }
-        a{
+
+        a {
             font-family: $title-font;
             color: $blanco;
-            &:hover{
+
+            &:hover {
                 color: #ff8633;
                 font-family: $title-font;
             }
-            &:visited{
+
+            &:visited {
                 font-family: $title-font;
                 color: $blanco;
             }
         }
-        .parque-texto {
-            @include flex (row,0,center,0);
-            .mapa {
-                width: 85%;
-                margin: 15px;
+
+        .formulario {
+            @include flex(0, 0, center, center);
+
+            .contenido-formulario {
+                text-align: center;
+                height: 250px;
+                width: 400px;
+                background-color: #ff8633;
+                margin: 36px 0px;
                 border-radius: 50px;
-                margin-bottom: 30px;
-            }
-        }
-        .muestra-titulo {
-            padding-top: 25px;
-            height: 280px;
-            width: 350px;
-            @include flex(0,wrap,0,0);
-            border-radius: 0px 100px 100px 0px;
-            box-shadow: 15px 15px 50px black;
-            img {
-                height: 164px;
-                width: 164px;
-                border-radius: 5px;
-                padding-left: 15px;
-            }
-            .titulo-parque {
-                height: 100px;
-                display: flex;
+                box-shadow: 20px 20px 29px -4px rgba(0, 0, 0, 0.75);
+                @include flex(row, wrap, center, center);
+                .correo {
+                    height: 40px;
+                    width: 80%;
+                    text-align: center;
+                    border-radius: 30px;
+                    border: none;
+                    font-size: 16px;
+                }
+                .boton{
+                    margin-top: 10px;
+                    background-color:$background;
+                    display: block;
+                    height: 36px;
+                    width: 100px;
+                    border-radius: 30px;
+                    @include flex(0,0,center,center);
+                    margin: 8px;
+                    &:hover{
+                        transform: scale(1.03);
+                        transition: all 0.4s ease;
+                        background-color: $color-primario;
+                    }
+                }
             }
         }
     }
-    .lugares-parque {
-        @include flex (row,wrap,center,0);
-        .contenedor-card {
-            .card-parque {
-                margin: 25px 30px;
-                height: 180px;
-                width: 190px;
-                text-align: center;
-                .card-parque-text{
-                    width: 200px;
-                }
-                a{
+
+    .parque-texto {
+        @include flex (row, 0, center, 0);
+
+        .mapa {
+            width: 85%;
+            margin: 15px;
+            border-radius: 50px;
+            margin-bottom: 30px;
+        }
+    }
+
+    .muestra-titulo {
+        padding-top: 25px;
+        height: 280px;
+        width: 90%;
+        @include flex(0, wrap, 0, 0);
+        border-radius: 0px 100px 100px 0px;
+        box-shadow: 15px 15px 50px black;
+
+        img {
+            height: 164px;
+            width: 164px;
+            border-radius: 5px;
+            padding-left: 15px;
+        }
+
+        .titulo-parque {
+            height: 100px;
+            display: flex;
+        }
+    }
+}
+
+.lugares-parque {
+    @include flex (row, wrap, center, 0);
+
+    .contenedor-card {
+        .card-parque {
+            margin: 25px 30px;
+            height: 180px;
+            width: 190px;
+            text-align: center;
+
+            .card-parque-text {
+                width: 200px;
+            }
+
+            a {
+                font-family: $title-font;
+                color: $blanco;
+                font-size: 20px;
+                text-decoration: none;
+                font-weight: 700;
+
+                &:hover {
                     font-family: $title-font;
                     color: $blanco;
-                    font-size: 20px;
+                    font-size: 21px;
                     text-decoration: none;
                     font-weight: 700;
-                    &:hover{
-                        font-family:$title-font;
-                        color: $blanco;
-                        font-size: 21px;
-                        text-decoration: none;
-                        font-weight: 700;
-                    }
                 }
-                h3{
-                    @extend %estilo-titulo;
-                }
-                img {
-                    height: 150px;
-                    width: 150px;
-                }
+            }
+
+            h3 {
+                @extend %estilo-titulo;
+            }
+
+            img {
+                height: 150px;
+                width: 150px;
             }
         }
     }

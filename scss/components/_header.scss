@@ -19,6 +19,7 @@ header{
                 .nav-item{
                     &:hover{
                         text-decoration: underline $blanco 1px;
+                        transition: 0.3s;
                     }
                     .nav{
                         color: $blanco !important;
